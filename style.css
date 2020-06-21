@@ -1,0 +1,82 @@
+.container {
+    min-height: 100vh;
+    padding-top: 20px;
+    margin-bottom: 2em;
+}
+
+#button-add-img {
+    background-image: url('./img/iconCamera.png');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    border-width: 1;
+    border-color: #FFCF00;
+    width:100px;
+    height:100px;
+    background-position: center;
+}
+
+#img-load {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.img-thumbnail {
+    margin-right: 8px;
+    width:100px;
+    height:100px;
+}
+
+.close {
+    position: absolute;
+    top: -4px;
+    right: 2px;
+    z-index: 100;
+    background-color: #000;
+    padding: 5px ;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 10px;
+    opacity: 1;
+    border-radius: 50%;
+}
+/* form */
+form {
+    margin-bottom:5% ;
+}
+.label {
+    font-size: 14px;
+    color: lightslategray;
+}
+.type1 {
+    border-top-width:0;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-color: #FFCF00;
+}
+.type2 {
+    border-top-width:0;
+    border-left-width: 0;
+    border-right-width: 0;
+
+}
+.textNote {
+    margin-top: 8%;
+    color: lightslategray;
+    line-height: 8px;
+    font-size: 15px
+    ;
+}
+/* category */
+.wrap-list-category {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.label-list {
+    margin-left: 5px;
+}
+.btn-category {
+    background-color: orange;
+    color:#fff;
+}
